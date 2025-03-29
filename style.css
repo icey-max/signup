@@ -126,9 +126,8 @@ input:invalid{
 }
 .button-container button{
    
-        box-shadow: 0px 10px 14px -7px #3e7327;
-        background:rgb(2, 26, 2);
-        background-color:#77b55a;
+        box-shadow: 0px 10px 14px -7px #000000;
+        background-color:#285214;
         border-radius:4px;
         border:1px solid #4b8f29;
         display:inline-block;
@@ -156,5 +155,7 @@ input:invalid{
     }
 
     .login{
-        color: #3e7327;
+        color: #285214;
+        text-decoration: none;
+        font-weight: 700;
     }
