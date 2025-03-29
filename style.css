@@ -57,8 +57,6 @@ body{
 .top-right{
     background-color: rgba(230, 233, 235, 0.726);
     height: 30%;
-    min-height: 30%;
-    max-height: 30%;
     color:black;
     padding-top: 200px;
 }
