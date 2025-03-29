@@ -1,0 +1,81 @@
+p, a,h1,h2{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+
+body{
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+.left-side {
+    position: relative;
+    height: 100vh;
+    width: 50%;
+    min-width: 250px;
+    max-width: 450px;
+    background: no-repeat center / cover url('./photo.jpeg');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.left-side > .logo-test{
+    width: 100%;
+    height: 12%;
+    min-height: 100px;
+    text-align: center;
+    position: relative;
+    bottom: 200px;
+}
+
+.logo-test
+{
+    display: flex;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.479);
+    gap: 2px;  
+}
+
+.logo-test p{
+    margin-top: 1.50rem;
+    margin-bottom: 0px;
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: white;
+    font-family: "Skranji", system-ui; 
+}
+
+.top-right{
+    background-color: rgba(230, 233, 235, 0.726);
+    height: 30%;
+    min-height: 30%;
+    max-height: 30%;
+    color:black;
+    padding-top: 200px;
+}
+.right-side{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.right-side  > p{
+    font-weight: 900;
+    margin-left: 30px;
+
+}
+
+.bottom-right{
+    width: 100%;
+    border: 1px solid red;
+    min-height: 25%;
+}
